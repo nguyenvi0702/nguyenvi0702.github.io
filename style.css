@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+#header {
+    background-color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+#header p{
+	font-family:cursive;  
+	font-size: large;
+	color:rgb(255, 98, 132)
+}
+.img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#body2 {
+	float:none;
+
+
+}
+.content {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.bar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+}
+
+
+#menu {
+    background-color: rgb(255, 213, 219);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+	line-height: initial;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#nav {
+    background-color: rgb(255, 213, 219);
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+	line-height: initial;
+    position: relative;
+    top: 0;
+	left: 0;
+}
+
+#nav input[type="search"] {
+    position: absolute;
+    bottom: 10px;
+    left: 70%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+#main {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 100px;
+    margin: 30px;
+}
+
+#main2 a {
+    text-decoration: none;
+}
+
+
+#footer {
+    background-color: black;
+    padding: 2px;
+    text-align: center;
+    color: white
+}
+
+.bar a:active {
+    background-color: rgb(255, 255, 255);
+    color: black
+}
+
+.content h2 span {
+    text-transform: uppercase;
+    color: red;
+}
+
+
+.nguonright {
+    text-align: right;
+    font-style: italic;
+}
+
+.nguonright span {
+    color: rgb(10, 158, 101);
+}
+#p1 {
+    clear: left;
+    border: 3px dashed rgb(17, 237, 79);
+    padding: 10px;
+    background-color: rgb(255, 253, 117);
+}
+
+h2 {
+    color: rgb(255, 136, 154);
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: rgb(82, 82, 248);
+}
+.pink {
+	color:hotpink;
+}
+.orange {
+	color:rgb(244, 185, 34);
+}
+.green {
+	color:rgb(55, 201, 55);
+}
+.italic {
+    font-style: italic;
+}
+
+h4 em {
+    color: rgb(158, 158, 142);
+    font-style: italic;
+}
